@@ -20,3 +20,7 @@ function startCountdown(duration) {
     }
   }, 1000);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  startCountdown(totalDurationInSeconds);
+});
